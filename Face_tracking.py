@@ -5,7 +5,7 @@ import mediapipe as mp
 import numpy as np
 import base64
 import io
-from PIL import Image
+from PIL import Image 
 
 app = Flask(__name__)
 socketio = SocketIO(app)
